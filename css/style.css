@@ -1,0 +1,352 @@
+body {
+  background-image: url("../images/overwatch.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0px;
+  padding: 0px;
+}
+
+.logo a {
+  font-size: 50px;
+  text-decoration: none;
+  color: rgb(255, 8, 8);
+  font-weight: bold;
+  float: left;
+}
+
+.logo a:hover {
+  opacity: 0.5;
+}
+
+#main-container {
+  width: 900px;
+  height: 500px;
+  border: 1px solid rgb(255, 8, 8);
+  margin: 0 auto;
+  position: relative;
+  background-color: rgb(255, 8, 8);
+  background-image: url("../images/over.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main-nav {
+  float: left;
+  margin-right: 70px;
+  width: 100%;
+  background-color: black;
+}
+
+.main-nav ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.main-nav li {
+  display: inline;
+  float: left;
+}
+
+.main-nav li a {
+  display: inline-block;
+  width: 100px;
+  height: 45px;
+  background-color: black;
+  text-align: center;
+  color: red;
+  padding-top: 24px;
+  text-decoration: none;
+}
+
+.main-nav li a:hover {
+  background-color: #1c4277;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: red;
+  text-shadow: 1px 1px 1px #000, 7px 7px 7px blue;
+  font-size: 41px;
+  font-weight: bolder;
+}
+
+.ps4-box {
+  background-image: url("../images/ps.jpg");
+  background-size: cover;
+  width: 270px;
+  height: 160px;
+  float: left;
+  margin-left: 310px;
+  margin-top: 20px;
+}
+
+.ps4-box:hover {
+  opacity: 0.4;
+}
+
+.xbox-box {
+  background-image: url("../images/xbox.jpg");
+  background-size: cover;
+  width: 270px;
+  height: 160px;
+  float: left;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.xbox-box:hover {
+  opacity: 0.4;
+}
+
+.pc-box {
+  background-image: url("../images/pc.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 160px;
+  float: left;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.pc-box:hover
+{
+  opacity: 0.4;
+}
+
+#game-container {
+  width: 100%;
+  margin-top: 10px;
+  position: relative;
+}
+
+#about-container {
+  width: 100%;
+  margin-top: 10px;
+  position: relative;
+}
+
+#footer {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  left: 0px;
+  background-color: #560e1b;
+  text-align: center;
+  font-family: impact;
+  padding-top: 1px;
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  font-size: 50px;
+  text-decoration: none;
+  color: rgb(255, 8, 8);
+  font-weight: bold;
+}
+
+#container {
+  width: 920px;
+  height: 1450px;
+  margin: 0 auto;
+  margin-top: 103px;
+  position: relative;
+}
+
+.red-box {
+  background-color: white;
+  opacity: 0.8;
+  width: 220px;
+  height: 340px;
+  float: left;
+  margin-right: 10px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.footerindex {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  left: 0px;
+  background-color: #560e1b;
+  text-align: center;
+  font-family: impact;
+  padding-top: 1px;
+  bottom: -65PX;
+}
+
+.price {
+  width: 50px;
+  height: 30px;
+  background-color: blue;
+  text-align: center;
+  display: block;
+  float: right;
+  margin-top: -150px;
+  opacity: 0.99;
+  z-index: 2;
+  line-height: 2;
+  background: rgba(0, 0, 255, 0.7);
+  color: white;
+}
+
+h3 {
+  font-style: italic;
+  margin-top: 5px;
+}
+
+.cat-block {
+  display: block;
+  width: 270px;
+  height: 150px;
+}
+
+.button {
+  width: 911px;
+  background-color: blue;
+  cursor: pointer;
+  margin-top: 10px;
+  color: red;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px
+}
+
+.button:hover {
+  background-color: #1c4277;
+}
+
+#form {
+  font-size: 30px;
+  font-style: bolder;
+  margin-top: 50px;
+  margin-left: 50px;
+  padding-top: 150px;
+  color: red;
+  text-shadow: 1px 1px 1px #000, 7px 7px 7px blue;
+  height: 550px;
+  width: 600px;
+}
+
+#pic-box {
+  position: absolute;
+  top: 400px;
+  left: 1150px;
+  border-style: outset;
+}
+
+#text {
+  font-size: 20px;
+  color: white;
+  background-color: grey;
+  margin-top: 120px;
+  padding: 50px;
+}
+
+#text a {
+  color: blue;
+}
+
+.contactfooter {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  left: 0px;
+  background-color: #560e1b;
+  text-align: center;
+  font-family: impact;
+  padding-top: 1px;
+  bottom: -100PX;
+}
+
+#footercheckout {
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  left: 0px;
+  background-color: #560e1b;
+  text-align: center;
+  font-family: impact;
+  padding-top: 10px;
+  bottom: 0px;
+}
+
+#pic-box1 {
+  margin-top: 10px;
+  margin-left: 500px;
+}
+
+td {
+  color: limegreen;
+  text-shadow: 1px 1px 1px #000, 7px 7px 7px blue;
+  font-size: 25px;
+}
+
+tr {
+  color: limegreen;
+  text-shadow: 1px 1px 1px #000, 7px 7px 7px blue;
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+#banner {
+  color: red;
+  border-style: solid;
+  border-color: blue;
+  background-color: blue;
+  width: 905px;
+  font-weight: bolder;
+  font-size: 20px;
+  text-align: center;
+}
+
+.buy {
+  width: 310px;
+  background-color: blue;
+  cursor: pointer;
+  margin-top: 10px;
+  color: red;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px
+}
+
+.buy:hover {
+  background-color: #1c4277;
+}
+
+#clear-button {
+  font: bold 21px Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 2px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+  width: 60px;
+  margin-bottom: 100px;
+}
+
+#clear-button a {
+  text-decoration: none;
+  color: blue;
+}
+
+#clear-button:hover {
+  background-color: limegreen;
+}
+
+table {
+  color: red;
+}
